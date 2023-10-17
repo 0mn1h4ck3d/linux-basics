@@ -34,6 +34,7 @@
 - **`/var/spool/mail`**: Contains mailbox files for user emails; incoming emails for users are stored here until read.
 - **`/var/run`**: Contains process ID (PID) files of running processes, used to track and manage processes.
 - **`/var/tmp`**: Provides a location for temporary files preserved between system reboots; files here are not automatically deleted on reboot.
+- **`/etc/shadow`**: The `/etc/shadow` file in Linux systems stores encrypted user passwords and related security information, such as password aging policies. It contains password hashes using cryptographic hash functions, ensuring the security of user passwords. Accessible only by the superuser, it is used to manage user authentication and enforce password policies. Common commands related to managing passwords include passwd, chage, and usermod. Modification of this file requires careful handling to prevent system authentication issues.
 
 ## 3. Types of Files:
 
